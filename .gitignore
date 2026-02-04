@@ -1,0 +1,35 @@
+# ==============================
+# Terraform
+# ==============================
+
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+crash.log
+crash.*.log
+
+*.tfvars
+*.tfvars.json
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+.terraformrc
+terraform.rc
+
+# ==============================
+# OS / Editor noise
+# ==============================
+
+.DS_Store
+Thumbs.db
+.vscode/
+
+# ==============================
+# Allow lock file
+# ==============================
+
+!.terraform.lock.hcl
